@@ -1,0 +1,1 @@
+{"mixinTypes":["contribution"],"builders":{"configs":{},"default":"ant"},"runners":{"configs":{"system:/java/web/tomcat7":{"ram":1000,"variables":{},"options":{}}},"default":"system:/java/web/tomcat7"},"type":"blank","attributes":{"contribute_branch":["master"],"contribute_mode":["contribute"]}}
