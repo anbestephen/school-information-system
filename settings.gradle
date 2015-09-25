@@ -1,2 +1,7 @@
 
-include "sis-model", "sis-repository"
+include "sis-model"
+include "sis-repository"
+include "sis-service"
+include "sis-web"
+include "sis-rest"
+include "sis-soap"
