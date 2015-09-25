@@ -3,8 +3,8 @@ apply plugin: 'war'
 apply plugin: 'jetty'
 
 dependencies {
-	compileRuntime project(':sis-model')
-	compileRuntime project(':sis-service')
+	compile project(':sis-model')
+	compile project(':sis-service')
 }
 
 httpPort = 8080
