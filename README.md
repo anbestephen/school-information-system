@@ -15,6 +15,23 @@ with multip project configuration.
  * SOAP webservices
  * Java Web application
 
+## Project Structure
+
+```
+school-information-system/
+├────── sis-model/
+│       └── ...
+├────── sis-repository/
+│       └── ..
+├────── sis-service/
+│       └── ..
+├────── sis-web/
+│       └── ..
+├────── sis-rest/
+│       └── ..
+├────── sis-soap/
+│       └── ..
+```
 ## Contributing
 
 Anybody is welcome to contribute :smile:
