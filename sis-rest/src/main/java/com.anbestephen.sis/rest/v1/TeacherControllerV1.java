@@ -3,34 +3,36 @@ package com.anbestephen.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.http.ResponseEntity;
 
 import com.anbestephen.media.model.Teacher;
 
 @Controller
-public class TeacherController {
+@RequestMapping("/v1")
+public class TeacherControllerV1 {
   
   @RequestMapping(value="/teachers/{id}", method=RequestMethod.GET)
-  public Teacher findById(Integer id){
+  public ResponseEntity<Teacher> findById(Integer id){
     return null;
   }
   
   @RequestMapping(value="/teachers", method=RequestMethod.GET)
-  public Teacher findAll(){
+  public ResponseEntity<Teacher> findAll(){
     return null;
   }
   
   @RequestMapping(value="/teachers", method=RequestMethod.POST)
-  public void save(Teacher assignment){
-    
+  public ResponseEntity<Void> save(Teacher assignment){
+    return null;
   }
   
   @RequestMapping(value="/teachers", method=RequestMethod.POST)
-  public void edit(Teacher assignment){
-    
+  public ResponseEntity<Void> edit(Teacher assignment){
+    return null;
   }
   
   @RequestMapping(value="/teachers/{id}", method=RequestMethod.GET)
-  public void delete(Integer id){
-    
+  public ResponseEntity<Void> delete(Integer id){
+    return null;
   }
 }

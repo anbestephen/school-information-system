@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.anbestephen.media.model.SectionEnrollment;
 
 @Controller
-public class SectionEnrollmentController {
+@RequestMapping("/v1")
+public class SectionEnrollmentControllerV1 {
 
     @RequestMapping(value = "/sectionEnrollments/{id}", method = RequestMethod.GET)
     public SectionEnrollment findById(Integer id) {

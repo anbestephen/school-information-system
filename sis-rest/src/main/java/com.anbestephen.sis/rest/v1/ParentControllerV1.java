@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.anbestephen.media.model.Parent;
 
 @Controller
-public class ParentController {
+@RequestMapping("/v1")
+public class ParentControllerV1 {
 
     @RequestMapping(value = "/parents/{id}", method = RequestMethod.GET)
     public ResponseEntity<Parent> findById(Integer id) {

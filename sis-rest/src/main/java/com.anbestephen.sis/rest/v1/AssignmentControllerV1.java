@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.anbestephen.media.model.Assignment;
 
 @Controller
-public class AssignmentController {
+@RequestMapping("/v1")
+public class AssignmentControllerV1 {
 
     @RequestMapping(value = "/assignments/{id}", method = RequestMethod.GET)
     public ResponseEntity<Assignment> findById(Integer id) {

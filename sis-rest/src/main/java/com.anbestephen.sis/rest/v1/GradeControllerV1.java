@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.anbestephen.media.model.Grade;
 
 @Controller
-public class GradeController {
+@RequestMapping("/v1")
+public class GradeControllerV1 {
 
     @RequestMapping(value = "/grades/{id}", method = RequestMethod.GET)
     public ResponseEntity<Grade> findById(Integer id) {

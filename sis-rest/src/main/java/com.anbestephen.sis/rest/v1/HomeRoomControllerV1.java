@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.anbestephen.media.model.HomeRoom;
 
 @Controller
-public class HomeRoomController {
+@RequestMapping("/v1")
+public class HomeRoomControllerV1 {
 
     @RequestMapping(value = "/homeRooms/{id}", method = RequestMethod.GET)
     public ResponseEntity<HomeRoom> findById(Integer id) {

@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.anbestephen.media.model.Section;
 
 @Controller
-public class SectionController {
+@RequestMapping("/v1")
+public class SectionControllerV1 {
 
     @RequestMapping(value = "/sections/{id}", method = RequestMethod.GET)
     public ResponseEntity<Section> findById(Integer id) {

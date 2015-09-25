@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.anbestephen.media.model.Semester;
 
 @Controller
-public class SemesterController {
+@RequestMapping("/v1")
+public class SemesterControllerV1 {
 
     @RequestMapping(value = "/semesters/{id}", method = RequestMethod.GET)
     public Semester findById(Integer id) {

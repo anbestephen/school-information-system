@@ -6,7 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-public class ClassController {
+@RequestMapping("/v1")
+public class ClassControllerV1 {
 
     @RequestMapping(value = "/classs/{id}", method = RequestMethod.GET)
     public ResponseEntity<com.anbestephen.media.model.Class> findById(Integer id) {
