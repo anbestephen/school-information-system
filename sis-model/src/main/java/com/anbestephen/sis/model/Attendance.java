@@ -1,7 +1,9 @@
 package com.anbestephen.sis.model;
 
+import java.util.Date;
+
 public class Attendance {
-	  date: "2013-11-01",
-      status: "P",
-      studentId: "1234"
+	  private Date date;
+      private boolean status;
+      private Student student;
 }

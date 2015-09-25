@@ -1,3 +1,4 @@
-dependencies {
-	compile project(':sis-model')
-}
+    dependencies {
+    	compile project(':sis-model')
+    	compile 'org.springframework:spring-context:4.1.6.RELEASE'
+    }

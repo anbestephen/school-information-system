@@ -1,15 +1,8 @@
 package com.anbestephen.sis.model;
 
+import java.util.List;
+
 public class SectionEnrollment {
-	 id: "3",
-     students: [
-         {
-             id: "3",
-             fullName: "Jessica Lane"
-         },
-         {
-             id: "8",
-             fullName: "Ryan Alexander"
-         }
-     ]
+	 private Long id;
+     private List<Student> studentList;
 }

@@ -5,7 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.anbestephen.media.model.SchoolGroup;
+import com.anbestephen.sis.model.SchoolGroup;
 
 @Controller
 @RequestMapping("/v1")

@@ -1,9 +1,11 @@
 package com.anbestephen.sis.model;
 
 public class Grade {
-	 assignmentId: "23432",
-     isFinalGrade: false,
-     letterGrade: "A",
-     marks: 98,
-     studentId: 2911
+	 private Assignment assignment;
+     private boolean isFinalGrade;
+     private Character letterGrade;
+     private Double marks;
+     private Student student;
+     private Long gradingScaleId;
+     private String gradingScaleName;
 }

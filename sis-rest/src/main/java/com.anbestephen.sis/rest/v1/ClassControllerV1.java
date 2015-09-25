@@ -10,22 +10,22 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class ClassControllerV1 {
 
     @RequestMapping(value = "/classs/{id}", method = RequestMethod.GET)
-    public ResponseEntity<com.anbestephen.media.model.Class> findById(Integer id) {
+    public ResponseEntity<com.anbestephen.sis.model.Class> findById(Integer id) {
         return null;
     }
 
     @RequestMapping(value = "/classs", method = RequestMethod.GET)
-    public ResponseEntity<com.anbestephen.media.model.Class> findAll() {
+    public ResponseEntity<com.anbestephen.sis.model.Class> findAll() {
         return null;
     }
 
     @RequestMapping(value = "/classs", method = RequestMethod.POST)
-    public ResponseEntity<Void> save(com.anbestephen.media.model.Class assignment) {
+    public ResponseEntity<Void> save(com.anbestephen.sis.model.Class assignment) {
         return null;
     }
 
     @RequestMapping(value = "/classs", method = RequestMethod.POST)
-    public ResponseEntity<Void> edit(com.anbestephen.media.model.Class assignment) {
+    public ResponseEntity<Void> edit(com.anbestephen.sis.model.Class assignment) {
         return null;
     }
 

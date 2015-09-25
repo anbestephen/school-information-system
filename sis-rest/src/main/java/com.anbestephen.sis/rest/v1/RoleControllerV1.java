@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.http.ResponseEntity;
 
-import com.anbestephen.media.model.Role;
+import com.anbestephen.sis.model.Role;
 
 @Controller
 @RequestMapping("/v1")

@@ -1,8 +1,8 @@
 package com.anbestephen.sis.model;
 
 public class SchoolGroup {
-	  isPartOfSchoolGroup: true,
-      schoolGroupId: "6",
-      name: "The Wildflower Group Of Schools",
-      billingSchoolId: "3"
+	  private Long id;
+	  private boolean isPartOfSchoolGroup;
+      private String name;
+      private Integer billingSchoolId;
 }

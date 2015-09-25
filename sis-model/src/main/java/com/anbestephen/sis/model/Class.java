@@ -1,8 +1,8 @@
 package com.anbestephen.sis.model;
 
 public class Class {
-	 id: "3",
-     sortOrder: 5,
-     name: "1st Grade",
-     abbreviation: "G01"
+	 private Long id;
+     private Integer sortOrder;
+     private String name;
+     private String abbreviation;
 }
