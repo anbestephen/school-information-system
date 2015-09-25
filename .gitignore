@@ -1,2 +1,8 @@
 /build/
 .gradle
+sis-model/build
+sis-repository/build
+sis-rest/build
+sis-service/build
+sis-soap/build
+sis-web/build
