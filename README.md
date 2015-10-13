@@ -11,6 +11,7 @@ This is a java complete application which lavarages cutting egdge java and j2EE 
 with multip project configuration.
 ## Features
 
+ * Gradle Multiproject build 
  * Restful webservice
  * SOAP webservices
  * Java Web application
